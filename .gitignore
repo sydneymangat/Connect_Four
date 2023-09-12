@@ -1,24 +1,22 @@
-# Compiled class file
-*.class
+.grid {
+  border: 2px solid;
+  height: 480px;
+  width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-# Log file
-*.log
+.grid div {
+  height: 80px;
+  width: 80px;
+}
 
-# BlueJ files
-*.ctxt
+.player-one {
+  background-color:darkmagenta;
+  border-radius: 40px;
+}
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+.player-two {
+  background-color:hotpink;
+  border-radius: 40px;
+}
